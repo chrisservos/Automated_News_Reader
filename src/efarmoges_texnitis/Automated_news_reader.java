@@ -43,15 +43,14 @@ import java.util.Scanner;
                 String line = null;
         
         System.out.println("Which article to read?\n1.)Ancient undersea landslide discovered in Australia"
-                + "\n2.)Six Afghan ICRC workers 'killed by Islamic State'"                  //menu epilogwn eidisewn
+                + "\n2.)Six Afghan ICRC workers 'killed by Islamic State'"                  //Menu of news choices
                 + "\n3.)Syria rejects Amnesty report on hangings at Saydnaya prison"
                 + "\n4.)Uber hires 'flying car engineer' from Nasa ");
         
         Scanner inte = new Scanner(System.in);
-        int numOfNews = inte.nextInt();                 //scan epilogis
-      //sti sinexeia anaparagetai i eidisi pou epilegei o xristis afou fortothei apo to analogo arxeio
-        //kai afou ginei to summarization
-           //sto telos kathe epilogis kanoume extract kapoia keywords gia to keimeno mas
+        int numOfNews = inte.nextInt();                 //scan of choice
+     
+      // in continuation the chosen article is being summarised and then played 
                                                   
         if (numOfNews==1){  
             
