@@ -36,14 +36,14 @@ import java.util.Scanner;
     public static void main(String[] args) throws FileNotFoundException, IOException {
          int numOfSentences=6;
       
-            SimpleSummariser s1=new SimpleSummariser();         //Arxikopoiisi metavlitwn
+            SimpleSummariser s1=new SimpleSummariser();         // Initialization of variables
             SimpleSummariser simple = new SimpleSummariser(); 
             
               StringBuilder stringBuilder = new StringBuilder();
                 String line = null;
         
         System.out.println("Which article to read?\n1.)Ancient undersea landslide discovered in Australia"
-                + "\n2.)Six Afghan ICRC workers 'killed by Islamic State'"                  //Menu of news choices
+                + "\n2.)Six Afghan ICRC workers 'killed by Islamic State'"                                  //Menu of news choices
                 + "\n3.)Syria rejects Amnesty report on hangings at Saydnaya prison"
                 + "\n4.)Uber hires 'flying car engineer' from Nasa ");
         
