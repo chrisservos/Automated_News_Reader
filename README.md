@@ -10,3 +10,4 @@ then Classifier 4j lib is used to extract keywords and summarize the news
 and finally,FreeTTS lib is used to play the summarized news text.
 
 NOTE: in order for the Reader to play, you must specify the path from where the news text is scanned.
+ 
